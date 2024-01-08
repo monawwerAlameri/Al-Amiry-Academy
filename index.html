@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<html >
+
+<head>
+	
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>اكاديمية العامري </title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="stylesheet" href="vendor/jqvmap/css/jqvmap.min.css">
+	<link rel="stylesheet" href="vendor/chartist/css/chartist.min.css">
+	<!-- Summernote -->
+    <link href="vendor/summernote/summernote.css" rel="stylesheet">
+	<link rel="stylesheet" href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skin-3.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap" rel="stylesheet">
+    <style>
+        @keyframes color-change {
+            0% {
+                color: #000;
+            }
+            50% {
+                color: #900;
+            }
+            100% {
+                color: #fbf8f8;
+            }
+            }
+
+        @keyframes color-change-alret {
+            0% {
+                background: #bcf99b;
+            }
+            50% {
+                background: rgb(105, 235, 189);
+            }
+            90% {
+                background: #f558f0;
+            }
+            100% {
+                background: #bcf99b;
+            }
+            }
+        @keyframes shadow-change {
+            0% {
+                box-shadow: #fc9a2b 0px 5px 7px 1px;
+                background: #58b4f5;
+            }
+            50% {
+                box-shadow: #1023eb 0px 5px 7px 1px;
+            }
+
+            100% {
+                box-shadow: #2bd9fc 0px 5px 7px 1px;
+                background: #f558f0;
+            }
+            }
+
+        .flos{
+            box-shadow: #fc9a2b 0px 5px 7px 1px;
+            font-size: x-large;
+            color: antiquewhite;
+            border-radius: 1rem;
+            margin: auto;
+            z-index: 10000;
+            padding: 0 10px;
+            background: #ff3535;
+            border: black;
+            margin-top: -2px;
+            animation: shadow-change 0.5s linear infinite;
+        }
+        *{font-family: 'Cairo', sans-serif;}
+    </style>
+
+</head>
+
+<body  dir="rtl">
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+                <img class="logo-abbr" src="images/logo-white-3.png" alt="">
+                <!--<img class="logo-compact" src="images/logo-text-white.png" alt="">
+                <img class="brand-title" src="images/logo-text-white.png" alt="">-->
+            </a>
+
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header"  >
+            <center><h3 class="text-light py-4">اكاديمية العامري</h3></center>
+            <div class="header-content">
+                
+                <nav class="navbar navbar-expand">
+                    
+                    <div class="collapse navbar-collapse justify-content-between">
+                        
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="dlabnav">
+            <div class="dlabnav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label first"> القائمة الرئيسية </li>
+                    <li><a class="has-arrow" href="index.html" aria-expanded="false">
+							<i class="la la-home"></i>
+							<span class="index.html">الصفحة الرئيسية</span>
+						</a>
+                        
+                    </li>
+					
+					
+					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">
+							<i class="la la-desktop"></i>
+							
+						</a>
+                    
+                    </li>
+					
+					
+                  
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                        <i class="la la-phone"></i>
+                        <span class="nav-text"> تواصل معنا</span>
+
+                    </a>
+                    <ul aria-expanded="false">
+                        <li><a href="https://wa.me/967711848728">واتساب <i class="fa fa-whatsapp" style="font-size:20px;color:rgb(12, 185, 61)"></i> </a></li>
+                        <li><a href="https://t.me/Monwwer">تليقرام <i class="fa fa-telegram" style="font-size:20px;color:rgb(9, 158, 204)"></i> </a></li>
+                        
+                    </ul>
+                    
+                    </li>					
+                    
+                        
+                   
+				</ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+		
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+            <!-- row -->
+
+            <div class="container-fluid">
+                <div class="alert alert-info text-center" role="alert" style="color: #47d1e66d; animation: color-change-alret 2s linear infinite;">
+                    <span style="color: #000; animation: color-change 2s linear infinite; font-size: x-large;">
+                      الإشتراك يشمل كل شروحات المقرر مع الواجبات والتجميعات والملخصات
+                    </span>
+                  </div>
+
+                <div class="row">
+                    <!-- مقدمة رياضيات جامعة الطائف  -->
+<!-- /////////////////////////////////////////////////// -->
+					<div class="col-xl-3 col-xxl-4 col-lg-6 col-md-6 text-center">
+						<div class="card">
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/unG43MnL7OE?si=yCUc-OG1jsAXAiDo" 
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
+                            <div class="flos" ><i class="fas  d-block mb-2">السعر ب 150 بدلا من <del class="text-danger">200</del></i></div>
+							<div class="card-body">
+								<h3 >مقدمة رياضيات جامعة الطائف </h3>
+                                <a href="https://wa.me/967711848728" class="btn btn-warning "> اشتراك </a>
+                                <a href="https://wa.me/967711848728" class="btn btn-primary">اتواصل معي </a><br>
+							</div>
+						</div>
+					</div>
+
+              <!-- مقدمة رياضيات جامعة الطائف  -->
+
+<!-- /////////////////////////////////////////////////// --> 
+
+
+<!-- /////////////////////////////////////////////////// -->
+              <!--تفاضل وتكامل 1 جامعة الطائف -->
+
+<div class="col-xl-3 col-xxl-4 col-lg-6 col-md-6 text-center">
+    <div class="card">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/guQOb77pLz4?si=5SvRZ8gxs52Fg-Ti" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+        <div class="flos" ><i class="fas  d-block mb-3">السعر ب 200 بدلا من <del class="text-danger">250</del></i></div>
+        <div class="card-body">
+            <h3 >تفاضل وتكامل 1 جامعة الطائف </h3>
+            <a href="https://wa.me/967711848728" class="btn btn-warning "> اشتراك </a>
+            <a href="https://wa.me/967711848728" class="btn btn-primary">اتواصل معي </a><br>
+        </div>
+    </div>
+</div>
+              <!--تفاضل وتكامل1 جامعة الطائف -->
+
+<!-- /////////////////////////////////////////////////// -->
+
+<!-- /////////////////////////////////////////////////// -->
+              <!--تفاضل وتكامل 2 جامعة الطائف -->
+
+              <div class="col-xl-3 col-xxl-4 col-lg-6 col-md-6 text-center">
+                <div class="card">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/As1AX37WeOY?si=GHUtidAXtaMzZ28e" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+                    <div class="flos" ><i class="fas  d-block mb-3">السعر ب 200 بدلا من <del class="text-danger">250</del></i></div>
+                    <div class="card-body">
+                        <h3 >تفاضل وتكامل 2 جامعة الطائف </h3>
+                        <a href="https://wa.me/967711848728" class="btn btn-warning "> اشتراك </a>
+                        <a href="https://wa.me/967711848728" class="btn btn-primary">اتواصل معي </a><br>
+                    </div>
+                </div>
+            </div>
+                          <!--تفاضل وتكامل2 جامعة الطائف -->
+            
+            <!-- /////////////////////////////////////////////////// -->
+
+
+
+
+
+
+
+
+
+
+
+           <!--مقدمة هندسة جامعة القصيم -->
+
+<!-- /////////////////////////////////////////////////// -->
+<div class="col-xl-3 col-xxl-4 col-lg-6 col-md-6 text-center">
+    <div class="card">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/a7g6XFTrp4A?si=eP2MU9MXfw-o2No4" title="YouTube video player"
+         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+         allowfullscreen>
+        </iframe>
+        <div class="flos" ><i class="fas  d-block mb-3">السعر ب 150 بدلا من <del class="text-danger">200</del></i></div>
+        <div class="card-body">
+            <h3 >مقدمة هندسة جامعة القصيم  </h3>
+            <a href="https://wa.me/967711848728" class="btn btn-warning "> اشتراك </a>
+            <a href="https://wa.me/967711848728" class="btn btn-primary">اتواصل معي </a><br>
+        </div>
+    </div>
+</div>
+           <!--مقدمة هندسة جامعة القصيم -->
+
+<!-- /////////////////////////////////////////////////// -->  
+
+
+           <!--مقدمة هندسة جامعة القصيم -->
+
+<!-- /////////////////////////////////////////////////// -->
+<div class="col-xl-3 col-xxl-4 col-lg-6 col-md-6 text-center">
+    <div class="card">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/WcMjodbGIxg?si=3Nlj791vZvzMqC1Z" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+        <div class="flos" ><i class="fas  d-block mb-3">السعر ب 150 بدلا من <del class="text-danger">200</del></i></div>
+        <div class="card-body">
+            <h3>اسس رياضيات جامعة القصيم</h3>
+            <a href="https://wa.me/967711848728" class="btn btn-warning "> اشتراك </a>
+            <a href="https://wa.me/967711848728" class="btn btn-primary">اتواصل معي </a><br>
+        </div>
+    </div>
+</div>
+           <!--مقدمة هندسة جامعة القصيم -->
+
+<!-- /////////////////////////////////////////////////// -->  
+
+
+           <!-- تفاضل وتكامل 2 جامعة القصيم  -->
+
+<!-- /////////////////////////////////////////////////// -->
+<div class="col-xl-3 col-xxl-4 col-lg-6 col-md-6 text-center">
+    <div class="card">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/qNKTQlXGSi4?si=WkTKNl6LRKsr3vUT" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+        <div class="flos" ><i class="fas  d-block mb-3">السعر ب 150 بدلا من <del class="text-danger">200</del></i></div>
+        <div class="card-body">
+            <h3>تفاضل وتكامل 2 جامعة القصيم</h3>
+            <a href="https://wa.me/967711848728" class="btn btn-warning "> اشتراك </a>
+            <a href="https://wa.me/967711848728" class="btn btn-primary">اتواصل معي </a><br>
+        </div>
+    </div>
+</div>
+           <!-- تفاضل وتكامل 2 جامعة القصيم  -->
+
+<!-- /////////////////////////////////////////////////// -->  
+
+           <!-- مقدمة رياضيات جامعة تبوك  -->
+
+<!-- /////////////////////////////////////////////////// -->
+<div class="col-xl-3 col-xxl-4 col-lg-6 col-md-6 text-center">
+    <div class="card">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/eqnALluaMwQ?si=0n34ZHr3R9ktafgp" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+        <div class="flos" ><i class="fas  d-block mb-3">السعر ب 350 بدلا من <del class="text-danger">400</del></i></div>
+        <div class="card-body">
+            <h3>مقدمة رياضيات جامعة تبوك </h3>
+            <a href="https://wa.me/967711848728" class="btn btn-warning "> اشتراك </a>
+            <a href="https://wa.me/967711848728" class="btn btn-primary">اتواصل معي </a><br>
+        </div>
+    </div>
+</div>
+           <!-- مقدمة رياضيات جامعة تبوك  -->
+
+<!-- /////////////////////////////////////////////////// --> 
+
+<!-- /////////////////////////////////////////////////// -->  
+
+           <!-- ماث 110 جامعة حائل -->
+
+<!-- /////////////////////////////////////////////////// -->
+<div class="col-xl-3 col-xxl-4 col-lg-6 col-md-6 text-center">
+    <div class="card">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/grNS_8WJ7nE?si=YSOw3eMNJkA1fquF" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+        <div class="flos" ><i class="fas  d-block mb-3">السعر ب 350 بدلا من <del class="text-danger">400</del></i></div>
+        <div class="card-body">
+            <h3>ماث 110 جامعة حائل </h3>
+            <a href="https://wa.me/967711848728" class="btn btn-warning "> اشتراك </a>
+            <a href="https://wa.me/967711848728" class="btn btn-primary">اتواصل معي </a><br>
+        </div>
+    </div>
+</div>
+           <!-- ماث 110 جامعة حائل -->
+
+<!-- /////////////////////////////////////////////////// --> 
+
+           <!-- ماث 127 جامعة حائل -->
+
+<!-- /////////////////////////////////////////////////// -->
+<div class="col-xl-3 col-xxl-4 col-lg-6 col-md-6 text-center">
+    <div class="card">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ICyhbphT-gk?si=Y-bLU3mxKOE2Zob9" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+        <div class="flos" ><i class="fas  d-block mb-3">السعر ب 350 بدلا من <del class="text-danger">400</del></i></div>
+        <div class="card-body">
+            <h3>ماث 127 جامعة حائل </h3>
+            <a href="https://wa.me/967711848728" class="btn btn-warning "> اشتراك </a>
+            <a href="https://wa.me/967711848728" class="btn btn-primary">اتواصل معي </a><br>
+        </div>
+    </div>
+</div>
+           <!-- ماث 127 جامعة حائل -->
+
+<!-- /////////////////////////////////////////////////// --> 
+
+
+
+                </div>
+
+                <div class="continer row">
+                    <div class="card  text-light text-center p-0 m-auto col-5" style="border: 0;">
+                        <img src="img/power.jpg" class="card-img-top mx-auto" style="width: 25rem;" alt="...">
+                        <div class="card-body" style="background: linear-gradient(0deg, #faa3ff, #ffffff);color: blueviolet;">
+                        <h5 class="card-title " >عمل البحوث وعروض البوروينت</h5>
+                        <p class="card-text">بحوث دقيقة- مشاريع التخرج بجميع التخصصات -عروض بوربوينت احترافية</p>
+                        <a href="https://wa.me/967711848728" class="btn btn-primary">اتواصل معي </a><br>
+                        </div>
+                    </div>
+
+                    <div class="card  text-light text-center p-0 m-auto col-5" style="border: 0;">
+                        <img src="img/design.jpg" class="card-img-top mx-auto" style="width: 25rem;" alt="...">
+                        <div class="card-body" style="background: linear-gradient(0deg, #faa3ff, #ffffff);color: blueviolet;">
+                            <h5 class="card-title">عمل تصاميم</h5>
+                            <p class="card-text">تهنئات - بوسترات - خرائط المفاهيم الذهنية - سيرة ذاتية - فيديوهات</p>
+                            <a href="https://wa.me/967711848728" class="btn btn-primary">اتواصل معي </a><br>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p> © جميع الحقوق محفوظة لدى  <a href="../index.htm" target="_blank">اكاديمية العامري</a>2024</p>
+               
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+		<!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="vendor/global/global.min.js"></script>
+	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/dlabnav-init.js"></script>	
+	
+	<!-- Chart sparkline plugin files -->
+    <script src="vendor/jquery-sparkline/jquery.sparkline.min.js"></script>
+	<script src="js/plugins-init/sparkline-init.js"></script>
+	
+	<!-- Chart Morris plugin files -->
+    <script src="vendor/raphael/raphael.min.js"></script>
+    <script src="vendor/morris/morris.min.js"></script> 
+	
+    <!-- Init file -->
+    <script src="js/plugins-init/widgets-script-init.js"></script>
+	
+	<!-- Demo scripts -->
+    <script src="js/dashboard/dashboard.js"></script>
+	
+	<!-- Summernote -->
+    <script src="vendor/summernote/js/summernote.min.js"></script>
+    <!-- Summernote init -->
+    <script src="js/plugins-init/summernote-init.js"></script>
+	
+	<!-- Svganimation scripts -->
+    <script src="vendor/svganimation/vivus.min.js"></script>
+    <script src="vendor/svganimation/svg.animation.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+		
+</body>
+</html>
